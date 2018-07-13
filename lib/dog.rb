@@ -2,25 +2,15 @@
 
 class Dog
   
-  def bark=(bark)
-    @bark = bark
+  def doggy
   end
   
   def bark
-    @bark
-   end
-   
-   def sit=(sit)
-     @sit = sit
+    puts "Woof!"
    end
    
    def sit
-     @sit
+     puts "The Dog is sitting"
    end
  end
  
- woof = Dog.new
- sit = Dog.new
- 
- puts woof.bark = "Woof!"
- puts sit.sit = "The Dog is sitting"
